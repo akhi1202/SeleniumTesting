@@ -1,0 +1,10 @@
+package QAmonCodeTestByAkhi;
+
+public class Basic_Operation_of_Web_Page {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

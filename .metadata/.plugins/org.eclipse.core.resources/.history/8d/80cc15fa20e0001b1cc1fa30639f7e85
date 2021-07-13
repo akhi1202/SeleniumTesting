@@ -1,0 +1,58 @@
+package QAmonCodeTestByAkhi;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import QAmonCodeTestByAkhi.SignInPage_Object_Locator;
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class SignInPage_POM_TestNG {
+
+
+		// TODO Auto-generated method stub
+		
+		private static WebDriver driver=null;
+		@BeforeTest
+		
+		private static void setUpTest() {
+			// TODO Auto-generated method stub
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+			
+		}
+		
+
+	private static void testStep1() throws InterruptedException {
+		// TODO Auto-generated method stub
+		driver.get("https://www.acquireangel.com/signin");
+		Thread.sleep(2000);
+		
+		// mail
+		SignInPage_Object_Locator.email(driver).sendKeys("hamidsaymon9@gmail.com");
+		
+		// password 
+		SignInPage_Object_Locator.password(driver).sendKeys("Abc12345");
+		
+		// remember me 
+		SignInPage_Object_Locator.rememberme(driver).click();
+		
+		// sign in button 
+		SignInPage_Object_Locator.signinbutton(driver).click();
+		
+	}
+	
+	@AfterTest
+	public void tearDown()
+{
+	driver.close();
+	//driver.quit();
+	
+	
+}}
+
+	
+
+

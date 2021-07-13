@@ -1,0 +1,10 @@
+package QAmonCodeTestByAkhi;
+
+public class SignInPage_Object_Locator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

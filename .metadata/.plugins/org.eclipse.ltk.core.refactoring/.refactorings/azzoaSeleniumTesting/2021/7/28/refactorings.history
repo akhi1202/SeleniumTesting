@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;SignInPage_POM_TestNG.java&apos; to &apos;QAmonCodeTestByAkhi.Basic_Operation_of_Web_Page.java&apos;&#x0D;&#x0A;- Original project: &apos;azzoaSeleniumTesting&apos;&#x0D;&#x0A;- Destination element: &apos;QAmonCodeTestByAkhi.Basic_Operation_of_Web_Page.java&apos;&#x0D;&#x0A;- Original element: &apos;frameworkImplemention.SignInPage_POM_TestNG.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/test\/java&lt;QAmonCodeTestByAkhi{Basic_Operation_of_Web_Page.java" element1="/src\/test\/java&lt;frameworkImplemention{SignInPage_POM_TestNG.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1625770793488" units="1" version="1.0"/>
+</session>
